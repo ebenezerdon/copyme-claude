@@ -1,10 +1,21 @@
 {
   "name": "copyme",
   "displayName": "CopyMe",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Write, polish and plan talking-video scripts with Claude, saved straight to your CopyMe teleprompter: scripts written to be spoken at the right length, in your own voice, with B-roll notes and delivery marks, plus a content calendar for your library.",
-  "author": { "name": "Ebenezer Don", "url": "https://copyme.cc" },
+  "author": {
+    "name": "Ebenezer Don",
+    "url": "https://copyme.cc"
+  },
   "homepage": "https://copyme.cc/claude",
+  "privacyPolicyUrl": "https://copyme.cc/privacy#claude",
   "license": "MIT",
-  "keywords": ["teleprompter", "scripts", "video", "youtube", "creators", "content calendar"]
+  "keywords": [
+    "teleprompter",
+    "scripts",
+    "video",
+    "youtube",
+    "creators",
+    "content calendar"
+  ]
 }
