@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "copyme": {
+      "type": "http",
+      "url": "https://copyme.cc/mcp"
+    }
+  }
+}

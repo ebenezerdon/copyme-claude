@@ -1,0 +1,17 @@
+{
+  "name": "copyme",
+  "owner": {
+    "name": "Ebenezer Don",
+    "email": "copyme@ebenezerdon.com"
+  },
+  "metadata": {
+    "description": "CopyMe for Claude: write, polish and plan talking-video scripts, saved to the CopyMe teleprompter."
+  },
+  "plugins": [
+    {
+      "name": "copyme",
+      "source": "./copyme",
+      "description": "Write, polish and plan talking-video scripts with Claude, saved straight to your CopyMe teleprompter."
+    }
+  ]
+}
