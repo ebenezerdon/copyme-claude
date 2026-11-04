@@ -5,7 +5,7 @@ description: Plan, schedule or organize videos in the CopyMe library. Use when t
 
 # Planning in CopyMe
 
-CopyMe scripts move through five statuses: `idea` (worth making some day), `backlog` (written, not recorded), `in-progress` (rehearsing or recording), `recorded` (ready to publish), `published`. Each can have a planned `publish_date` (YYYY-MM-DD), `platforms`, `tags` and a published link.
+CopyMe scripts move through four statuses: `idea` (worth making some day), `in-progress` (written, not recorded yet; every new script starts here), `recorded` (ready to publish), `published`. Each can have a planned `publish_date` (YYYY-MM-DD), `platforms`, `tags` and a published link.
 
 ## See where things stand
 
@@ -13,7 +13,7 @@ Call `list_scripts` without filters: its `library` block counts scripts by statu
 
 ## Plan a stretch of videos
 
-1. Look at what's already scheduled and at `backlog` and `idea` scripts first; plan with what they have before inventing new topics.
+1. Look at what's already scheduled and at `in-progress` and `idea` scripts first; plan with what they have before inventing new topics.
 2. Propose the plan as a short table: date, title, platform, status, and what's missing (needs writing, needs recording).
 3. Ask before changing anything, unless the user already told you to go ahead. Then apply it in **one** `organize_scripts` call (up to 50 changes), not one call per script; its result shows each script after the change, so there's no need to list again.
    - Keep dates scripts already have unless the user asked to move them (asking to schedule a set of scripts on new days counts).

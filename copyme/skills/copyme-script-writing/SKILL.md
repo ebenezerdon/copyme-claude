@@ -53,7 +53,7 @@ Pass the requested length as `target_seconds` to `create_script` and `edit_scrip
 ## Saving
 
 - If the result lists `similar_existing`, tell the user (it may be the same video) and offer to archive one.
-- If the user asked to save it (or to "put it in CopyMe"), call `create_script` with a short title, the body, and what you know: `status` (`backlog` for a finished script, `idea` for a rough one), `platforms`, `publish_date`, `tags`. Reuse tags they already have (the `library.tags` overview from `list_scripts`) before inventing new ones.
+- If the user asked to save it (or to "put it in CopyMe"), call `create_script` with a short title, the body, and what you know: `status` (`in-progress`, the default, for a script; `idea` for a rough one), `platforms`, `publish_date`, `tags`. Reuse tags they already have (the `library.tags` overview from `list_scripts`) before inventing new ones.
 - If they didn't, show the draft and offer to save it.
 - A script in another language: set `language` so voice follow listens in it. Translate section labels and notes too, and keep the markup tokens (`{pause}`, `^^word^^`, `[B-ROLL: ...]`) as they are. If their exact variant isn't in the list (Latin American Spanish, say), pick the closest and tell them which you set.
 - A new version of an existing script (a Short cut, a translation, a LinkedIn version): set `made_from` with the source script's id.
